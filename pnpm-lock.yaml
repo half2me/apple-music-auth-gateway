@@ -11,6 +11,12 @@ devDependencies:
   '@sveltejs/kit':
     specifier: ^1.20.4
     version: 1.26.0(svelte@4.2.2)(vite@4.5.0)
+  jose:
+    specifier: ^4.15.4
+    version: 4.15.4
+  musickit-typescript:
+    specifier: ^1.2.4
+    version: 1.2.4
   prettier:
     specifier: ^2.8.0
     version: 2.8.8
@@ -680,6 +686,10 @@ packages:
       '@types/estree': 1.0.3
     dev: true
 
+  /jose@4.15.4:
+    resolution: {integrity: sha512-W+oqK4H+r5sITxfxpSU+MMdr/YSWGvgZMQDIsNoBDGGy4i7GBPTtvFKibQzW06n3U3TqHjhvBJsirShsEJ6eeQ==}
+    dev: true
+
   /kleur@4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
@@ -754,6 +764,10 @@ packages:
 
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
+    dev: true
+
+  /musickit-typescript@1.2.4:
+    resolution: {integrity: sha512-3+/20Pi2zOVAHfUFf631LU2NwaC/qEHBBksM+YQzQ/fff4tIMPX5WJ6We/WXmwTHkAkHIOEitJW4cRPnvVAq+A==}
     dev: true
 
   /nanoid@3.3.6:

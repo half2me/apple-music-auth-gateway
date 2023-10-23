@@ -1,0 +1,17 @@
+trailingComma: all
+tabWidth: 2
+useTabs: false
+semi: false
+singleQuote: true
+quoteProps: as-needed
+bracketSpacing: true
+printWidth: 120
+htmlWhitespaceSensitivity: ignore
+plugins:
+  - prettier-plugin-svelte
+pluginSearchDirs:
+  - .
+overrides:
+  - files: '*.svelte'
+    options:
+      parser: svelte
